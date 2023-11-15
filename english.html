@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -15,64 +15,63 @@
 </head>
 <body>
     <header class="barra-superior">
-        <h1>sistemas usables</h1>
+        <h1>Usable systems</h1>
         <img src="img/logo.png">
         
     </header>
     <div class="nav-principal">
         <nav class="herramienta">
-            <a href="http://sistemasusables.com/2023mat/aplicaciones/sistema1/inicio.html" target="_blank">Interes compuesto</a>
-            <a href="http://sistemasusables.com/2023PAPIME/dep/inicio.html" target="_blank">Aplicacion de la recta</a>
-            <a href="english.html">
-                <img src="img/usa-flag.svg" alt="usa-icon">
+            <a href="http://sistemasusables.com/2023mat/aplicaciones/sistema1/inicio.html" target="_blank">Compound Interest</a>
+            <a href="http://sistemasusables.com/2023PAPIME/dep/inicio.html" target="_blank">Line Application</a>
+            <a href="index.html">
+                <img src="img/mexico-flag.png" alt="mexico-flag">
             </a>
         </nav>
-    </div>
-    
     </div>
     <div class="contenedor">
     
         <main class="posision-contenido">
             <div class="aplicacion-contenido">
                 <div class="aplicacion-logaritmo">
-                    <h2>aplicación <span>del</span> logaritmo</h2>
+                    <h2>logarithm application</h2>
                 </div>
                 <div class="contenidos">
                     <section class="contenido">
-                        <h3>instrucciones:</h3>
+                        <h3>instructions:</h3>
                         <div class="instrucciones">                        
-                            <img src="img/instrucciones.png" alt="foto-instrucciones">
+                            <img src="img/instructions.png" alt="foto-instrucciones">
                         </div>
                     </section>
                 </div>
             </div>
             <div class="botton-flex">                    
-                <section class="contenido">
+                <section class="contenido bottom-fex" >
                     <div class="valores">
                         <label for="numeroInputC">C:</label>
-                        <input type="text" class="numeroInput" placeholder="Ingresa tu capital de inicio" id="numeroInputC" oninput="validarNumero('numeroInputC')">
-                        <div class="validacionMensaje" id="validacionMensajeC"></div>
+                        <input type="text" class="numeroInput" placeholder="type" id="numeroInputC" oninput="validarNumero('numeroInputC')">
+                        <div class="validacionMensaje" id="validacionMensajeC"></div>                       
                     </div>
                     <div class="valores">
                         <label for="numeroInputI">i:</label>
-                        <input type="text" class="numeroInput" placeholder="Ingresa el interes obtenido" id="numeroInputI" oninput="validarNumero('numeroInputI')">
-                        <div class="validacionMensaje" id="validacionMensajeI"></div>
+                        <input type="text" class="numeroInput" placeholder="Type" id="numeroInputI" oninput="validarNumero('numeroInputI')">
+                        <div class="validacionMensaje" id="validacionMensajeI"></div>                        
                     </div>
                     <div class="valores">
-                        <label for="numeroInputN">M:</label>
-                        <input type="text" class="numeroInput" placeholder="Ingresa el monto obtenido" id="numeroInputM" oninput="validarNumero('numeroInputM')">
-                        <div class="validacionMensaje" id="validacionMensajeN"></div>
+                        <label for="numeroInputN">n:</label>
+                        <input type="text" class="numeroInput" placeholder="Type" id="numeroInputN" oninput="validarNumero('numeroInputN')">
+                        <div class="validacionMensaje" id="validacionMensajeN"></div>            
                     </div>
                     <div class="despejar-n">
-                        <button>Despejar n</button>
+                        <button>Get n</button>
                     </div>
                     <div class="pasos display-frex">
                         <img src="img/paso1.jpg" alt="paso1">
                         <img class="dos" src="img/paso2.jpg" alt="paso2">
                     </div>
                 </section>
-            </div>
-            
+            </div>            
+        </main>
+    </div><!--fin contenedor-->
     <script>
         function validarNumero(inputId) {
             var input = document.getElementById(inputId);
@@ -86,18 +85,12 @@
             }
         }
     </script>
-                
-
-            
-            
-    </main>
-    </div>
     
     <footer class="nav-footer">
         <a href="#" class="accessibility">
             <img src="img/accessibility.png" alt="accesibilidad">
         </a>
-        <p>&copy;todos los derechos reservados &copy;</p>
+        <p>&copy;made by we xD &copy;</p>
         <a href="#" class="help"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-help-circle" width="72" height="72" viewBox="0 0 24 24" stroke-width="2.5" stroke="#e2943a" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />

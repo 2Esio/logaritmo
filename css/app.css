@@ -46,10 +46,11 @@ h3{
     justify-content: space-between;
     background-color: #004B84;
     color: #fff;
+    padding: 0 3rem;
 }
 .barra-superior h1 {
     text-transform: uppercase;
-    padding-left: 1rem;
+    
     font-size: 4.6rem;
     font-weight: 700;
 }
@@ -67,6 +68,7 @@ h3{
     background-color: #4383bc;
     margin-right: 0;
     margin-bottom: 3rem;
+    padding: 0 3rem;
 }
 .herramienta a {
     padding: 1rem 2rem;
@@ -98,6 +100,7 @@ h3{
 }
 .posision-contenido{
     display: flex;
+    justify-content: space-between;
 }
 /*
 .contenidos {
@@ -141,14 +144,55 @@ h3{
     display: block;
     align-items: center;
 }
-#numeroInput {
-    padding: 10px;
-    font-size: 16px;
+.numeroInput {
+    padding: 1rem;
+    font-size: 1.6rem;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 0.5rem;
   }
 
-  #validacionMensaje {
-    margin-top: 10px;
+  .validacionMensaje {
+    margin-top: 1rem;
     color: red;
   }
+.botton-flex{
+    margin-right: 16rem;
+    margin-top: 4rem;
+}
+.despejar-n{
+    margin-top: 2rem;
+}
+.despejar-n button{
+    background-color: #38c035;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.pasos{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+/*
+.display-frex{
+    display: flex;
+    justify-content: space-around;
+}
+*/
+
+/*navegacion fotter*/
+.nav-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.accessibility{
+    padding-left: 5rem;
+}
+.help{
+    padding-right: 5rem;
+}
+
+.nav-footer p{
+    margin: 0;
+    padding-top: 5rem;
+}

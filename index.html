@@ -6,33 +6,48 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>logaritmo</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,
+400&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <header>
+    <header class="barra-superior">
         <h1>sistemas usables</h1>
-        <nav>
+        <img src="img/logo.png">
+        
+    </header>
+    <div class="nav-principal">
+        <nav class="herramienta">
             <a href="interes.html">Interes compuesto</a>
             <a href="recta.html">Aplicacion de la recta</a>
         </nav>
-        <img src="img/logo.png">
+    </div>
+    <div class="contenedor">
     
-    </header>
+        <main>
+            <div class="aplicacion-logaritmo">
+                <h2>aplicacion <span>del</span> logaritmo</h2>
+            </div>
+            <div class="contenidos">
+                <section class="contenido">
+                    <h3>instrucciones:</h3>
+                    <div class="instrucciones">                        
+                        <img src="img/instrucciones.png" alt="foto-instrucciones">
+                    </div>
+                </section>        
+                <section class="contenido">
+                    <h3>solución:</h3>
+                </section>
+            </div><!--fin contenido-->
 
-    <main>
-        <div>
-        <h2>aplicacion del logaritmo</h2>
-        </div>
-
-        <section>
-        <h3>instrucciones</h3>
-        </section>
-
-        <section>
-        <h3>solucion</h3>
-        </section>
-        <button>aplicar</button>
-        
-    </main>
+            <button class="boton">aplicar</button>
+            
+        </main>
+    </div>
+    
     <footer>
         <p>todos los derechos reservados xD</p>
     </footer>

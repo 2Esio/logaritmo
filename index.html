@@ -23,27 +23,71 @@
         <nav class="herramienta">
             <a href="interes.html">Interes compuesto</a>
             <a href="recta.html">Aplicacion de la recta</a>
+            <a href="english.html">
+                <img src="img/usa-flag.svg" alt="usa-icon">
+            </a>
         </nav>
+    </div>
+    
     </div>
     <div class="contenedor">
     
-        <main>
-            <div class="aplicacion-logaritmo">
-                <h2>aplicacion <span>del</span> logaritmo</h2>
+        <main class="posision-contenido">
+            <div class="aplicacion-contenido">
+                <div class="aplicacion-logaritmo">
+                    <h2>aplicacion <span>del</span> logaritmo</h2>
+                </div>
+                <div class="contenidos">
+                    <section class="contenido">
+                        <h3>instrucciones:</h3>
+                        <div class="instrucciones">                        
+                            <img src="img/instrucciones.png" alt="foto-instrucciones">
+                        </div>
+                    </section>
+                </div>
             </div>
-            <div class="contenidos">
+            <div>                    
                 <section class="contenido">
-                    <h3>instrucciones:</h3>
-                    <div class="instrucciones">                        
-                        <img src="img/instrucciones.png" alt="foto-instrucciones">
+                    <div class="valores">
+                        <label for="numeroInput">C:</label>
+                        <input type="text" id="numeroInput" oninput="validarNumero()">
+                        <div id="validacionMensaje"></div>
                     </div>
-                </section>        
-                <section class="contenido">
-                    <h3>solución:</h3>
+                    <div class="valores">
+                        <label for="numeroInput">i:</label>
+                        <input type="text" id="numeroInput" oninput="validarNumero()">
+                        <div id="validacionMensaje"></div>
+                    </div>
+                    <div class="valores">
+                        <label for="numeroInput">n:</label>
+                        <input type="text" id="numeroInput" oninput="validarNumero()">
+                        <div id="validacionMensaje"></div>
+                    </div>
+                    <div class="valores">
+                        <label for="numeroInput">n:</label>
+                        <input type="text" id="numeroInput" oninput="validarNumero()">
+                        <div id="validacionMensaje"></div>
+                    </div>
                 </section>
             </div><!--fin contenido-->
 
-            <button class="boton">aplicar</button>
+    <script>
+        function validarNumero() {
+        var input = document.getElementById('numeroInput');
+        var mensaje = document.getElementById('validacionMensaje');
+        var valor = input.value;
+
+        if (/^\d*\.?\d*$/.test(valor)) {
+            mensaje.textContent = '';
+        } else {
+            mensaje.textContent = 'Por favor, ingresa solo números enteros o decimales.';
+            // Puedes agregar más lógica para manejar este caso, como eliminar caracteres no válidos.
+        }
+        }
+    </script>
+                
+
+            
             
         </main>
     </div>
